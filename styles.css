@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    font-family: "Inter", sans-serif;
+    color: #242424;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    padding: 32px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+    color: #243E63
+}
+
+.nav__logo--wrapper {
+    width: 40px;
+    height: 40px;
+}
+
+.treact-logo {
+    width: 40px;
+}
+
+.nav__right {
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    z-index: 20;
+}
+
+.nav__right > i {
+    font-size: 24px;
+}
+
+.nav__mobile__links--container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 24px 16px;
+}
+
+.nav__mobile__links {
+    background-color: white;
+    z-index: 10;
+    border: whitesmoke;
+    padding: 32px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
