@@ -371,6 +371,11 @@ body {
 
 /* Values */
 
+.values__container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .value__heading {
   text-align: center;
   font-size: 18px;
@@ -425,8 +430,6 @@ body {
 }
 
 .presentation__image {
-  margin-top: 30px;
-  margin-bottom: 30px;
   width: 30%;
 }
 
@@ -468,9 +471,6 @@ body {
 
 .twocol-imagerating__subheading {
   margin-top: 60px;
-}
-
-.testimonials__container {
 }
 
 .twocol-imagerating__subheading {
@@ -643,7 +643,7 @@ body {
   }
 
   .presentation__image {
-    width: 30%%;
+    width: 30%;
     margin-top: 100px;
     margin-bottom: 100px;
   }
