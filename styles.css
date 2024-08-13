@@ -372,6 +372,7 @@ body {
 /* Values */
 
 .value__heading {
+  text-align: center;
   font-size: 18px;
   color: #6415ff;
   margin-top: 100px;
@@ -379,12 +380,19 @@ body {
 }
 
 .principles__heading {
+  font-weight: 900;
+  font-size: 30px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .values {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.para__values {
+  text-align: center;
 }
 
 .heading-affordable {
@@ -398,6 +406,12 @@ body {
 }
 
 .para-1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.para-2 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -408,6 +422,31 @@ body {
   border-radius: 100px;
   padding: 20px;
   margin-left: 100px;
+}
+
+.presentation__image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+}
+
+.threeplans__heading {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.threeplans__subheading {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.threeplans__description {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* testimonials */
@@ -427,8 +466,11 @@ body {
   margin-right: 30px;
 }
 
+.twocol-imagerating__subheading {
+  margin-top: 60px;
+}
+
 .testimonials__container {
-  margin: 150px;
 }
 
 .twocol-imagerating__subheading {
@@ -601,7 +643,7 @@ body {
   }
 
   .presentation__image {
-    width: 75%;
+    width: 30%%;
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -679,7 +721,17 @@ body {
     margin-left: 8px;
   }
 
+  .threeplans__headercontainer {
+    text-align: center;
+  }
+
+  .threeplans__heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .threeplans__subheading {
+    text-align: center;
     font-size: 20px;
     color: #6415ff;
     margin-bottom: 20px;
@@ -694,6 +746,10 @@ body {
   .twocol-imagerating__description {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .twocol-imagerating__column {
+    margin-top: 60px;
   }
 
   .twocol-imagerating__slidertest {
@@ -715,6 +771,29 @@ body {
   .twocol-imagerating__custprofile {
     border-radius: 100px;
     width: 20%;
+  }
+
+  .twocol-imagerating__heading {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .twocol-imagerating__row {
+    flex-direction: column;
+  }
+
+  .getstarted--background__container {
+    margin: 0;
+  }
+
+  .getstarted__text {
+    font-size: 20px;
+    width: 200px;
+  }
+
+  .getstarted__columncontainer {
+    display: flex;
+    flex-direction: column;
   }
 
   .footer {
